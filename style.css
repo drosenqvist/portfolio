@@ -1,0 +1,137 @@
+h1, h2, p, span, a {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto;
+}
+
+body {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 45px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 48px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+header h1 a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+  header h1 a:hover {
+    transition: ease-in-out, 0.2s;
+    color: gray;
+  }
+
+  header h1 span {
+    color: rgb(247, 105, 45)
+  }
+
+  header ul {
+    display: flex;
+    margin: 0;
+  }
+
+    header ul li {
+      display: flex;
+    }
+
+      header ul li a {
+        padding: 0px 15px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        line-height: 55px;
+        color: black;
+      }
+
+      header ul li a:hover {
+        transition: ease-in-out, 0.2s;
+        color: gray;
+      }
+
+  .index-wrapper {
+
+  }
+
+  .blog-wrapper {
+
+  }
+
+    .blog-wrapper article {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(245, 248, 250);
+      border-radius: 20px;
+      padding: 30px;
+    }
+
+      .blog-wrapper article img {
+        width: 500px;
+      }
+
+      .blog-wrapper article h2 {
+        font-weight: 300;
+        font-size: 3rem;
+        margin: 0 0 0 30px;
+      }
+
+      .blog-wrapper article p {
+        
+      }
+
+
+
+
+
+  .portfolio-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 4rem;
+  }
+
+    .portfolio-wrapper article {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      padding: 0 30px;
+      border-radius: 20px;
+      background-color: rgb(245, 248, 250);
+    }
+
+    .portfolio-wrapper article img {
+      width: 110px;
+      margin: 20px auto;
+    }
+
+    .portfolio-wrapper article h2 {
+      margin-bottom: 0;
+    }
+
+    .portfolio-wrapper article a {
+      margin-top: auto;
+      margin-bottom: 25px;
+    }
+
+    .portfolio-wrapper article p {
+      line-height: 20px;
+    }
+
+      .portfolio-wrapper article a img {
+        width: 45px;
+        margin: 0;
+      }
+
+      .portfolio-wrapper article a img:hover {
+        transition: ease-in-out, 0.2s;
+        opacity: 0.6;
+      }
